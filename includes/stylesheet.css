@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+article, aside, main, section, header, footer {
+    display: block;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+#wrapper {
+}
+
+header {
+    /*width: 100%;*/
+    background: #F7F8FA;
+
+    padding-left: 220px;
+    padding-right: 220px;
+}
+
+#logo {
+    display: inline-block;
+    width: 128px;
+    height: 128px;
+
+    background: url("../images/atletico_madrid_icon.png") no-repeat;
+    font-family: 'Black Han Sans', sans-serif;
+    text-decoration: none;
+
+    line-height: 9.5;
+    color: #3c2b2b;
+    font-size: 21px;
+
+
+    margin-left: 100px;
+}
+
+nav {
+    display: inline-block;
+    font-family: Arial, sans-serif;
+    margin-left: 90px;
+}
+
+nav > ul {
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav > ul > li {
+    display: inline-block;
+}
+
+nav >  ul > li:after {
+    font-weight: bold;
+    content: '|';
+}
+
+nav >  ul > li:last-child:after {
+    content: '';
+}
+
+nav > ul > li > a {
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    color: #495444;
+
+    margin-left: 22px;
+    margin-right: 22px;
+    text-transform: uppercase;
+
+}
+
+nav > ul > li > a:hover {
+    color: gray;
+    text-decoration: underline;
+}
+
+
+
+main {
+
+}
+
+main > section:first-child {
+    background: url("../images/section_bg.jpeg") no-repeat;
+    height: 800px;
+    margin: auto;
+}
+
+main > section:first-child > h1 {
+    color: white;
+    font-size: 100px;
+    padding-top: 237px;
+    text-align: center;
+}
+
+main > section:first-child > hr {
+    background: #13A3E0;
+    border-top: 1px solid #13A3E0;
+    margin: auto;
+    width: 35%;
+}
+
+main > section:first-child > p {
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 25px;
+}
+
+
+main > section:first-child > div {
+    text-align: center;
+    margin-top: 70px;
+}
+
+main > section:first-child a {
+    color: white;
+    text-decoration: none;
+    border: 1px solid #13A3E0;
+    padding: 10px;
+    transition: 0.2s background linear;
+}
+
+main > section:first-child a:hover {
+    background: #13A3E0;
+    transition: 0.2s background linear;
+}
+
+
+main > section:nth-child(2) {
+    background: #F5F9F8;
+    height: 340px;
+}
+
+main > section:nth-child(2) > h2 {
+    padding-top: 80px;
+    color: #4F4745;
+    text-align: center;
+}
+
+
+main > section:nth-child(2) > p {
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    margin-top: 15px;
+}
+
+main > section:last-child {
+    background: white;
+
+}
+
+main > section:last-child > h2 {
+    padding-top: 80px;
+    text-align: center;
+}
+
+main > section:last-child > div {
+    text-align: center;
+    margin: auto;
+}
+
+.programmingLanguages {
+    display: block;
+    list-style-type: none;
+    margin-top: 30px;
+    margin-left: 355px;
+    margin-bottom: 100px;
+}
+
+
+
+.programmingLanguages li {
+    display: block;
+    height: 30px;
+    width: 30px;
+    margin-top: 30px;
+    color: #4F4745;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+
+.programmingLanguages li:first-child {  /* C */
+    background: url("../images/c_icon.png") no-repeat;
+    background-size: contain;
+}
+
+.programmingLanguages li:nth-child(2) {  /* C++ */
+    background: url("../images/cpp_icon.png") no-repeat;
+    background-size: contain;
+}
+
+.programmingLanguages li:nth-child(3) {  /* JAVA */
+    background: url("../images/java_icon.png") no-repeat;
+    background-size: contain;
+}
+
+.programmingLanguages li:last-child {  /* HTML */
+    background: url("../images/html_icon.png") no-repeat;
+    background-size: contain;
+}
+
+footer {
+    background: #F7F8FA;
+}
